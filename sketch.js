@@ -12,11 +12,11 @@ function draw(){
     mn = minute();
     sc = second();
 
-    fill("white")
-    textSize(30)
-    text(h + ":" + mn + ":" + sc, 400, 200)
-    translate(200, 200)
-    rotate(-90)
+    fill("white");
+    textSize(30);
+    text(h + ":" + mn + ":" + sc, 400, 200);
+    translate(200, 200);
+    
 
     if(hr > 12){
       h = hr - 12;
